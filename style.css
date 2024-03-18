@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: Sofia Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #a1b8be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: fit-content;
+    height: fit-content;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.container input{
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 15px;
+    border: 2px solid #a09e9e;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.container button{
+    display: block;
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    background-color: #0dc96e;
+    margin-top: 30px;
+    color: white;
+}
+
+.container button:hover{
+    cursor: pointer;
+    background-color: #0d9e58;
+    transition: background-color 0.2s;
+}
+
+.qrcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.QR{
+    margin-top: 30px;
+   transition: all 0.3s;
+   max-height: 0px;
+   width: 200px;
+   object-fit: cover;
+   object-position: center;
+   transition: max-height 1s ease-in-out;
+   border-radius: 15px;
+   padding: 15px;
+   overflow: hidden;
+   
+}
+
+.QR img{
+ width: 100%;
+
+}
