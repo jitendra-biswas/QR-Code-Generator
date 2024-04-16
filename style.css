@@ -20,6 +20,13 @@ main{
     background-color: aliceblue;
     padding: 20px;
     border-radius: 15px;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+@keyframes animation {
+   from{opacity: 0;}
+   to{opacity: 100;}
+    
 }
 
 .container input{
